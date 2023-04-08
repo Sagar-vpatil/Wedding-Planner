@@ -1,5 +1,5 @@
 
-
+/* *************** Navbar ************** */
 .navbar-nav a{
     font-size: 15px;
     text-transform: uppercase;
@@ -37,8 +37,8 @@ letter-spacing: 5px;
     line-height: 0.3;
 background-color: #fff;
 }
-
-
+/* *******X******** Navbar ******X******** */
+/* *************** Slider ************** */
 .carousel-item{
     height: 100vh;
     min-height: 300px;
@@ -67,6 +67,8 @@ background-color: #fff;
     background: radial-gradient(0,0,0,0.6);
     z-index: 1;
 }
+
+/* *****X********** Slider ******X******** */
 
 @media only screen and (max-width:767px) {
     .navbar-nav{
