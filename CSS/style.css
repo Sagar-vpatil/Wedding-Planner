@@ -95,6 +95,7 @@ background-color: #fff;
     width: 100%;
     padding-top: 2rem;
     font-family: sans-serif;
+    background: #000;
 }
 
 .upper-footer {
@@ -128,7 +129,7 @@ background-color: #fff;
 }
 
 .footer-heading {
-    color: #404040;
+    color: #fff;
     font-size: 1.2rem;
     margin-bottom: .6rem;
     text-transform: uppercase;
@@ -173,7 +174,7 @@ background-color: #fff;
 
 .down-footer {
     width: 100%;
-    color: #404040;
+    color: #fff;
     margin-top: 1rem;
     display: flex;
     align-items: center;
@@ -190,7 +191,7 @@ background-color: #fff;
 }
 
 .footer-li li a {
-    color: #404040;
+    color: #fff;
     text-decoration: none;
 }
 
