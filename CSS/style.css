@@ -1,32 +1,5 @@
 
-.carousel-item{
-    height: 100vh;
-    min-height: 300px;
-}
-.carousel-caption{
-    bottom: 220px;
-    z-index: 2;
-
-}
-.carousel-caption h5{
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 20px;
-    color:wheat;
-    text-align: center;
-}
-
-.carousel-inner:before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: radial-gradient(0,0,0,0.6);
-    z-index: 1;
-}
+/* *************** Navbar ************** */
 .navbar-nav a{
     font-size: 15px;
     text-transform: uppercase;
@@ -64,6 +37,38 @@ letter-spacing: 5px;
     line-height: 0.3;
 background-color: #fff;
 }
+/* *******X******** Navbar ******X******** */
+/* *************** Slider ************** */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color:wheat;
+    text-align: center;
+}
+
+.carousel-inner:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(0,0,0,0.6);
+    z-index: 1;
+}
+
+/* *****X********** Slider ******X******** */
 
 @media only screen and (max-width:767px) {
     .navbar-nav{
