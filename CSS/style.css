@@ -102,7 +102,7 @@ background-color: #fff;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg,#00bcd4,#ffeb3b);
+    background: url('../Assets/Ideas/bg.jpg');
 }
 .Idea-container{
     position: relative;
@@ -129,7 +129,7 @@ background-color: #fff;
 
 .Idea-container .card:hover
 {
-    height: 400px;
+    height: 450px;
 }
 
  .Idea-container .card .imgBx{
