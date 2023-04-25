@@ -71,24 +71,7 @@ background-color: #fff;
 
 /* *****X********** Slider ******X******** */
 
-@media only screen and (max-width:767px) {
-    .navbar-nav{
-        text-align: center;
-    }
-    .carousel-caption{
-        bottom: 165px;
 
-    }
-    .carousel-caption h5{
-        font-size: 17px;
-
-    }
-    .carousel-caption a{
-        padding: 10px 15px;
-        font-size: 15px;
-    }
-    
-}
 /**************************** Wedding Ieads Section ******************************* */
 .All{
     margin: 0;
@@ -506,3 +489,41 @@ transform: translateZ(120px);
 }
 
 /*****************************************xx**footer*****xxx*********************************************************/
+
+/***************************************** Media Query*********************************************************/
+
+@media only screen and (max-width:820px) {
+
+    .Idea-container .card:hover
+{
+    height: 500px;
+}
+
+    .Idea-container .card .content{
+        left: 35px;
+        
+    }
+
+    .Idea-container .card:hover .content{
+        top: 100px;
+        height: 320px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 165px;
+
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    
+}
