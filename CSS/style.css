@@ -396,6 +396,9 @@ background-color: #fff;
 }
 
 @media screen and (max-width: 821px) {
+    .carousel{
+        background-size: cover;
+    }
     .up-left {
         width: 100%;
     }
