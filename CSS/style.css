@@ -267,6 +267,7 @@ background-color: #fff;
 	color: #1abc9c;
 }
 .carousel .carousel-indicators {
+    top: 200px;
 	bottom: -70px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
