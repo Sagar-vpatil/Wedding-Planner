@@ -266,7 +266,7 @@ background-color: #fff;
 	text-transform: uppercase;
 	color: #1abc9c;
 }
-.carousel .carousel-indicators {
+.container-lg .carousel .carousel-indicators {
     top: 200px;
 	bottom: -70px;
 }
