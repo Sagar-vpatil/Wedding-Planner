@@ -125,6 +125,14 @@ list-style: none;
     color: #fff;
 }
 
+.header1{
+    text-align: center; 
+}
+
+.header1 h1{
+    color: #fff;
+}
+
 /* -------------------X---------------------- header -------------------X---------------------- */
 
 /* ----------------------------------------- Main Photo ----------------------------------------- */
@@ -342,6 +350,17 @@ z-index: -1;
         left: 0px;
         width: 100%;
     }
+    .bo.active{
+        display: none;
+     }
+
+     .bor.active{
+        display: none;
+     }
+
+     .btn1.active{
+        display: none;
+     }
 }
 
 
@@ -453,6 +472,8 @@ z-index: -1;
     .btn1{
         left: 15rem;
     }
+
+
 }
 
 @media (max-width:570px){
@@ -495,9 +516,10 @@ z-index: -1;
     }
 }
 
-@media (max-width:380px){
+
+@media (max-width:400px){
     main{
-        padding-left: -5rem;
+        padding-left: 1rem;
     }
 
     main .site-title{
@@ -534,6 +556,15 @@ z-index: -1;
      .btn1{
         left: 8rem;
     }
+
+    .header h1{
+        padding-top: 2rem;
+    }
+
+    .header{
+        font-size: 10px;
+    }
+    
 }
 
 @media (max-width:380px){
