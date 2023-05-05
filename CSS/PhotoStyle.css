@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+:root{
+    --bg-color:#150019;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    background: var(--bg-color);
+
+}
+
+/* ----------------------------------------- navigation ----------------------------------------- */
+.navigation{
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background: #3e0748;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.navigation:hover,
+.navigation.active{
+    width: 300px;
+}
+
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation ul li{
+position: relative;
+width: 100%;
+list-style: none;
+}
+
+.navigation ul li:hover{
+    background: #ea1d63;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navigation ul li a .icon .fas{
+    font-size: 24px;
+}
+
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+.toggle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: #330748;
+    cursor: pointer;
+}
+
+.toggle.active{
+    background: #ea1d63;
+}
+
+.toggle:before{
+    content: '\f0c9';
+    font-family: fontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.toggle.active:before{
+    content: '\f00d';
+}
+
+/* ------------------X----------------------- navigation ----------------------X------------------- */
+
+/* ----------------------------------------- header ----------------------------------------- */
+
+.header{
+    text-align: center; 
+}
+
+.header h1{
+    color: #fff;
+}
+
+/* -------------------X---------------------- header -------------------X---------------------- */
+
+/* ----------------------------------------- Main Photo ----------------------------------------- */
+main{
+    padding-left: 17rem;
+}
+main .site-title{
+    
+    justify-content: center;
+    border: 3px solid #ea1d63;
+    width: 60rem;
+    height: 40rem ;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    
+}
+.site-title .ims{
+    background: url('../Assets/PhotoG/Photo1.jpeg');
+    background-size: cover;
+    height: 110vh;
+    
+}
+
+main .site-title .site-backgraound{
+   
+    padding-top: 35rem;
+    text-align: center;
+    color: #fff;
+}
+
+main .site-title .site-backgraound h1{
+   margin: .3rem;
+  background: #ea1d63;
+  width: auto;
+  
+}
+hr{
+    height: 2px;
+    color: #fff;
+}
+
+/* ------------------X----------------------- Main Photo -------------------X---------------------- */
+
+/* ----------------------------------------- Card Section ----------------------------------------- */
+.bor.active{
+    display: block;
+}
+
+.bor{
+    display: none;
+}
+.bo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bo .box{
+    position: relative;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background: #060c21;
+    transition: 0.5s;
+}
+
+.bo .box:hover{
+    height: 400px;
+
+}
+.bo .box .imgBx{
+  position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bo .box .imgBx img{
+    max-width: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+   
+}
+
+.box:hover .imgBx img{
+    opacity: 1;
+}
+
+.box:before{
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+background: #fff;
+z-index: -1;
+}
+
+.box:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+    }
+    
+
+
+    .bo .box .content{
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        height: 100px;
+        background: rgba(0,0,0,0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+    } 
+
+    .bo .box .content i{
+        top: 1px;
+       color: #ea1d63;
+    }
+
+    .bo .box .content button{
+        background: #00bcd4;
+        border-radius: 1.3rem;
+        padding: .7rem .9rem;
+        cursor: pointer;
+    }
+    .bo .box:hover .content
+{
+    opacity: 1;
+
+}
+
+.box .content h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.box .content h2 span{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
+    
+}
+
+
+.btn1{
+    position: relative;
+    width: 120px;
+    height: 60px;
+    left: 45rem;
+    background: #ea1d63;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    text-align: center;
+    border: 3px solid var(--bg-color);
+}
+
+.btn1.active{
+    background: #ea1d63;
+}
+
+.btn1:before{
+    content: 'More \f103';
+    font-family: fontAwesome ;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #060c21;
+}
+
+.btn1.active{
+    top: 33rem;
+}
+.btn1.active:before{
+    content: 'Less \f102';
+}
+
+/* --------------------X--------------------- Card Section ------------------X----------------------- */
+
+@media (max-width:767px){
+
+    .navigation{
+        left: -60px;
+    }
+    .navigation.active{
+        left: 0px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1320px){
+    main{
+        padding-left: 15rem;
+    }
+
+    .btn1{
+        left: 37rem;
+    }
+
+}
+
+@media (max-width:1220px){
+    main{
+        padding-left: 5rem;
+    }
+    .btn1{
+        left: 34rem;
+    }
+}
+
+
+@media (max-width:920px){
+    main{
+        padding-left: 10rem;
+    }
+    main .site-title{
+    
+        height: 500px;
+        width: 602px;
+       
+    }
+
+    main .site-title .ims{
+        height: 500px;
+        width: 597px;
+       
+    }
+
+    main .site-title .site-backgraound{
+   
+        padding-top: 28rem;
+       
+    }
+
+
+    .btn1{
+        left: 25rem;
+    }
+
+    .btn1.active{
+        top: 60rem;
+    }
+}
+
+
+@media (max-width:800px){
+    main{
+        padding-left: 5rem;
+    }
+
+    .btn1{
+        left: 21rem;
+    }
+
+
+}
+
+
+@media (max-width:720px){
+    main{
+        padding-left: 2rem;
+    }
+
+    .btn1{
+        left: 19rem;
+    }
+
+    .btn1.active{
+        top: 90rem;
+    }
+}
+
+@media (max-width:620px){
+    main{
+        padding-left: 2rem;
+    }
+    main .site-title{
+    
+        height: 400px;
+        width: 502px;
+       
+    }
+
+    main .site-title .ims{
+        height: 397px;
+        width: 497px;
+       
+    }
+
+    main .site-title .site-backgraound{
+   
+        padding-top: 19rem;
+       
+    }
+
+    .btn1{
+        left: 15rem;
+    }
+}
+
+@media (max-width:570px){
+    main{
+        padding-left: 0rem;
+    }
+    .btn1{
+        left: 15rem;
+    }
+
+    .btn1{
+        left: 13rem;
+    }
+}
+
+@media (max-width:500px){
+    main{
+        padding-left: 0rem;
+    }
+    main .site-title{
+    
+        height: 300px;
+        width: 402px;
+       
+    }
+
+    main .site-title .ims{
+        height: 297px;
+        width: 397px;
+       
+    }
+
+    main .site-title .site-backgraound{
+   
+        padding-top: 13rem;
+       
+    }
+    .btn1{
+        left: 11rem;
+    }
+}
+
+@media (max-width:380px){
+    main{
+        padding-left: -5rem;
+    }
+
+    main .site-title{
+    
+        height: 200px;
+        width: 302px;
+       
+    }
+
+    main .site-title .ims{
+        height: 197px;
+        width: 297px;
+       
+    }
+
+    main .site-title .site-backgraound{
+   
+        padding-top: 9rem;
+       
+    }
+
+    main .site-title .site-backgraound h1{
+        margin: .2rem;
+       background: #ea1d63;
+       width: auto;
+       font-size: 15px;
+       
+     }
+
+     .bo.active{
+        display: none;
+     }
+
+     .btn1{
+        left: 8rem;
+    }
+}
+
+@media (max-width:380px){
+    .btn1{
+        left: 6rem;
+    }
+}

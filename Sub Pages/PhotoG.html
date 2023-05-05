@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/all.css">
+    <link rel="stylesheet" href="../CSS/PhotoStyle.css">
+
+</head>
+<body>
+
+    <!-- ----------------------------------- navigation ------------------------------------- -->
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fas fa-house"></i></span>
+                    <span class="title">Home</span>
+                </a>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fas fa-camera-retro"></i></span>
+                    <span class="title">Photographers</span>
+                </a>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fas fa-music"></i></span>
+                    <span class="title">Music Dj</span>
+                </a>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-dumpster-fire"></i></span>
+                    <span class="title">Catering</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-solid fa-person-dress"></i></span>
+                    <span class="title">Costumes</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-brands fa-dropbox"></i></span>
+                    <span class="title">Decoration</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa-sharp fa-regular fa-gem"></i></i></span>
+                    <span class="title">Jewellery</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="toggle" onclick="toogleMenu()"></div>
+    <!-- --------------X--------------------- navigation ---------------------X---------------- -->
+    
+     <!-- ----------------------------------- header ------------------------------------- -->
+     <div class="header"><h1 class="head">Wedding PhotoShoot</h1></div>
+     <!-- ----------------X------------------- header ------------------X------------------- -->
+
+      <!-- ----------------------------------- Main Photo ------------------------------------- -->
+     <main>
+
+    <section class="site-title">
+        <div class="ims">
+        <div class="site-backgraound" data-aos="fade-up" data-aos-delay="100">
+          <h1>We Help You For Find Best Photographer</h1>
+         
+       </div>
+    </div>
+      </section>
+    </main>
+    <!-- --------------------X--------------- Main Photo --------------------X----------------- -->
+
+    <!-- ----------------------------------- Card Section ------------------------------------- -->
+    <hr>
+    <div class="header"><h1 class="head">Top Photographer</h1></div>
+     
+    <div class="bo">
+    <div class="box">
+        <div class="imgBx">
+            <img src="../Assets/PhotoG/PhotoG6.jpeg" style="height: 340px; width: 300px;">
+        </div>
+        <div class="content">
+            <h2>Sandy Kaur &nbsp;<i class="fa-solid fa-star"></i> 5.0<br> <span>Delhi NCR</span> 
+                <br> <button class="btn"><h3>Contact-Now</h3></button></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="../Assets/PhotoG/PhotoG2.jpeg" style="height: 340px; width: 300px;" >
+        </div>
+        <div class="content">
+            <h2> John D'Souza&nbsp; <i class="fa-solid fa-star"></i> 4.7<br> <span>Mumbai</span> 
+                <br> <button class="btn"><h3>Contact-Now</h3></button></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="../Assets/PhotoG/PhotoG3.webp " style="height: 340px; width: 300px;">
+        </div>
+        <div class="content">
+            <h2> Rohit Gupta&nbsp; <i class="fa-solid fa-star"></i> 4.5<br> <span>Mumbai</span> 
+                <br> <button class="btn"><h3>Contact-Now</h3></button></h2>
+        </div>
+    </div>
+</div>
+
+
+<div class="btn1" onclick="SubMenu()"> </div>
+<div class="bor">
+<div class="bo">
+    <div class="box">
+        <div class="imgBx">
+            <img src="../Assets/PhotoG/PhotoG1.jpeg" style="height: 340px; width: 300px;">
+        </div>
+        <div class="content">
+            <h2>Sandy Kaur &nbsp;<i class="fa-solid fa-star"></i> 5.0<br> <span>Delhi NCR</span> 
+                <br> <button class="btn"><h3>Contact-Now</h3></button></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="../Assets/PhotoG/Photo7.jpeg" style="height: 340px; width: 300px;" >
+        </div>
+        <div class="content">
+            <h2> John D'Souza&nbsp; <i class="fa-solid fa-star"></i> 4.7<br> <span>Mumbai</span> 
+                <br> <button class="btn"><h3>Contact-Now</h3></button></h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="../Assets/PhotoG/PhotoG8.jpeg " style="height: 340px; width: 300px;">
+        </div>
+        <div class="content">
+            <h2> Rohit Gupta&nbsp; <i class="fa-solid fa-star"></i> 4.5<br> <span>Mumbai</span> 
+                <br> <button class="btn"><h3>Contact-Now</h3></button></h2>
+        </div>
+    </div>
+</div>
+</div>
+<!-- ----------------------------------- Card Section ------------------------------------- -->
+
+    <script type="text/javascript">
+        function toogleMenu(){
+            let navigation = document.querySelector('.navigation');
+            let  toggle = document.querySelector('.toggle');
+            let bo = document.querySelector('.bo');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+            bo.classList.toggle('active');
+        }
+    </script>
+
+<script type="text/javascript">
+    function SubMenu(){
+        let bor = document.querySelector('.bor');
+        let  btn1 = document.querySelector('.btn1');
+        btn1.classList.toggle('active');
+        bor.classList.toggle('active');
+    }
+</script>
+
+</body>
+
+</body>
+</html>
