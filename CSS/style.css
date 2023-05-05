@@ -19,6 +19,9 @@ h1{
 }
 .container{
     width: 100%;
+
+
+
 }
 .box{
     max-width: 350px;
@@ -55,9 +58,23 @@ p{
     text-decoration: none;
     padding: 10px 20px;
  }
- @media (min-wisth: 700px) {
+ @media (min-width: 700px) {
     .container{
         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .box{
+        max-width: 450px;
+    }
+    .box img{
+        float: left;
+    }
+    .box .heading,
+    .box .text{
+        float: right;
+        width: 50%;
     }
  }
 /************xx*traditional wadding xx*****/
