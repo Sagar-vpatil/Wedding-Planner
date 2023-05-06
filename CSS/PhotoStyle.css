@@ -17,7 +17,7 @@
 body{
     min-height: 100vh;
    background: var(--bg-color);
-
+    
 }
 
 /* ----------------------------------------- navigation ----------------------------------------- */
@@ -372,12 +372,51 @@ z-index: -1;
 
 }
 
+
+
 @media (max-width:1220px){
     main{
         padding-left: 5rem;
     }
     .btn1{
         left: 34rem;
+    }
+}
+
+@media (max-width:950px){
+    main{
+        left: 5rem;
+    }
+   
+
+    main .site-title{
+    
+        height: 550px;
+        width: 720px;
+       
+    }
+
+    main .site-title .ims{
+        height: 550px;
+        width: 715px;
+       
+    }
+
+    main .site-title .site-backgraound{
+   
+        padding-top: 30rem;
+    
+       
+    }
+    main .site-title .site-backgraound h1{
+        font-size: 30px;
+    }
+    .btn1{
+        left: 25rem;
+    }
+
+    .btn1.active{
+        top: 60rem;
     }
 }
 
