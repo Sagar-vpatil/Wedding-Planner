@@ -16,12 +16,12 @@
 
 body{
     min-height: 100vh;
-    background: var(--bg-color);
+   background: var(--bg-color);
 
 }
 
 /* ----------------------------------------- navigation ----------------------------------------- */
-.navigation{
+/*.navigation{
     position: fixed;
     width: 60px;
     height: 100%;
@@ -111,7 +111,7 @@ list-style: none;
 
 .toggle.active:before{
     content: '\f00d';
-}
+} */
 
 /* ------------------X----------------------- navigation ----------------------X------------------- */
 
@@ -138,6 +138,7 @@ list-style: none;
 /* ----------------------------------------- Main Photo ----------------------------------------- */
 main{
     padding-left: 17rem;
+   
 }
 main .site-title{
     
@@ -181,7 +182,6 @@ hr{
 .bor.active{
     display: block;
 }
-
 .bor{
     display: none;
 }
@@ -274,11 +274,16 @@ z-index: -1;
        color: #ea1d63;
     }
 
-    .bo .box .content button{
+    .bo .box .content .btn3{
         background: #00bcd4;
         border-radius: 1.3rem;
-        padding: .7rem .9rem;
+        padding: .1rem .2rem;
         cursor: pointer;
+        
+    }
+
+    .bo .box .content .btn3 h3{
+        font-size: 23px;
     }
     .bo .box:hover .content
 {
@@ -351,14 +356,6 @@ z-index: -1;
         width: 100%;
     }
     .bo.active{
-        display: none;
-     }
-
-     .bor.active{
-        display: none;
-     }
-
-     .btn1.active{
         display: none;
      }
 }
