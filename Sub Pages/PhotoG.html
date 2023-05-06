@@ -32,51 +32,6 @@
 </head>
 <body style="background: #150019;">
     <!-- ----------------------------------- navigation ------------------------------------- -->
-   <!-- <div class="navigation">
-        <ul>
-            <li>
-                <a href="#">
-                    <span class="icon"><i class="fas fa-house"></i></span>
-                    <span class="title">Home</span>
-                </a>
-            <li>
-                <a href="#">
-                    <span class="icon"><i class="fas fa-camera-retro"></i></span>
-                    <span class="title">Photographers</span>
-                </a>
-            <li>
-                <a href="#">
-                    <span class="icon"><i class="fas fa-music"></i></span>
-                    <span class="title">Music Dj</span>
-                </a>
-            <li>
-                <a href="#">
-                    <span class="icon"><i class="fa-solid fa-dumpster-fire"></i></span>
-                    <span class="title">Catering</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="icon"><i class="fa-solid fa-person-dress"></i></span>
-                    <span class="title">Costumes</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="icon"><i class="fa-brands fa-dropbox"></i></span>
-                    <span class="title">Decoration</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="icon"><i class="fa-sharp fa-regular fa-gem"></i></i></span>
-                    <span class="title">Jewellery</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="toggle" onclick="toogleMenu()"></div> -->
-
 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-3 border-bottom ">
@@ -88,27 +43,27 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center" >
 			  <li class="nav-item">
-				<a class="nav-link active text-primary"  aria-current="page" href="#">Home</a>
+				<a class="nav-link active text-primary"  aria-current="page" href="../index.html">Home</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="./venue.html">Veneu</a>
+				<a class="nav-link" href="../venue.html">Veneu</a>
 			  </li>
 			  <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle active text-primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 				  Services
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <li><a class="dropdown-item" href="./Sub Pages/PhotoG.html">Photographers</a></li>
+				  <li><a class="dropdown-item" href="../Sub Pages/PhotoG.html">Photographers</a></li>
 				  <li><a class="dropdown-item" href="#">Another action</a></li>
 				  <li><hr class="dropdown-divider"></li>
 				 
 				</ul>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="./Sub Pages/wedd_card.html">E-card</a>
+				<a class="nav-link" href="../Sub Pages/wedd_card.html">E-card</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="./Sub Pages/contact-us.html">contact-us</a>
+				<a class="nav-link" href="../Sub Pages/contact-us.html">contact-us</a>
 			  </li>
 			</ul>
 			
@@ -173,7 +128,8 @@
 
 
 <div class="btn1" onclick="SubMenu()"> </div>
-<div class="bor">
+<div class="bor"  data-aos="fade-up"
+data-aos-anchor-placement="top-center" >
 <div class="bo">
     <div class="box">
         <div class="imgBx">
@@ -207,31 +163,7 @@
 
 <!-- ----------------------------------- Card Section ------------------------------------- -->
 
-    <script type="text/javascript">
-        function toogleMenu(){
-            let navigation = document.querySelector('.navigation');
-
-            let  toggle = document.querySelector('.toggle');
-
-            let bo = document.querySelector('.bo');
-
-            let bor = document.querySelector('.bor');
-
-            let btn1 = document.querySelector('.btn1');
-
-
-            navigation.classList.toggle('active');
-
-            toggle.classList.toggle('active');
-
-            bo.classList.toggle('active');
-
-            bor.classList.toggle('active');
-
-            btn1.classList.toggle('active');
-        }
-    </script>
-
+   
 <script type="text/javascript">
     function SubMenu(){
         let bor = document.querySelector('.bor');
