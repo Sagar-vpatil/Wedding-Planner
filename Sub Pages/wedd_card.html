@@ -191,7 +191,7 @@
               </div>
             </div>
           </div>
-          <bcc
+          <button
             onclick="mores()"
             id="btn"
             style="border-radius: 50px ; align-items: center;"
@@ -204,13 +204,152 @@
   
     </div>
 
-    
+
+  <!-- ------------------------------ Card Second ------------------------------------ -->
+    <div class="container">
+
+      <div class="text">
+        <h1>E-Card</h1> 
+    </div>
+    <div
+    class="p-3 cards d-flex justify-content-between flex-wrap"
+    data-aos="fade-up"
+    data-aos-anchor-placement="top-center"
+  >
+  
+    <div class="card bg-dark mt-3" style="width: 18rem">
+      <img
+        src="../img/card-1.jpg" class="card-img-top"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <div class="d-flex justify-content-between">
+          <div class="card-title m-0"><h5> Designing Card</h5></div>
+        </div>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up
+          the bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">View more</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark mt-3" style="width: 18rem">
+      <img
+        class="card-img-top"
+        src="../img/card-2.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <div class="d-flex justify-content-between">
+          <div class="card-title m-0"><h5>Designing Card|</h5></div>
+        </div>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up
+          the bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">View more</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark mt-3" style="width: 18rem">
+      <img
+        class="card-img-top"
+        src="../img/card-3.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <div class="d-flex justify-content-between">
+          <div class="card-title m-0"><h5>Designing Card</h5></div>
+        </div>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up
+          the bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">View more</a>
+      </div>
+    </div>
+
+    <div
+    style="display: none; justify-content: space-between; flex-wrap: wrap"
+    id="add-sum"
+    class="p-3 cards"
+  >
+    <div class="card bg-dark mt-3" style="width: 18rem">
+      <img
+        class="card-img-top"
+        src="../img/card-4.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Designing Card</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up
+          the bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">View more</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark mt-3" style="width: 18rem">
+      <img
+        class="card-img-top"
+        src="../img/card-5.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Designing Card</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up
+          the bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">View more</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark mt-3" style="width: 18rem">
+      <img
+        class="card-img-top"
+        src="../img/card-6.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Designing Card</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up
+          the bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">View more</a>
+      </div>
+      </div>
+    </div>
+
+    </div>
+    <button
+    onclick="add()"
+    id="btn1"
+    style="border-radius: 50px ; align-items: center;"
+    class="btn  btn-primary w-100"
+  >
+    Fined more
+  </button>
+
+  </div>
+  <!-- --------------X---------------- Card Second ----------------X-------------------- -->
+
     <script>
       function mores() {
         document.getElementById("load-more").style.display = "flex";
         document.getElementById("btn").style.display = "none";
       }
     </script>
+
+<script>
+  function add() {
+    document.getElementById("add-sum").style.display = "flex";
+    document.getElementById("btn1").style.display = "none";
+  }
+</script>
 
     <!----------------------------------------------------------------------------------------------------------->
 
