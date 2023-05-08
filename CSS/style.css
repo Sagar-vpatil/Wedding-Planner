@@ -1,5 +1,6 @@
-
-
+body{
+    background-color: #240046;
+}
 .container .text h1{
     text-align: center;
     margin-top: 25px;
@@ -53,7 +54,7 @@ color: crimson;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("../img/img4.jpg");
+    background-color: #240046;
 }
 .Idea-container{
     position: relative;
