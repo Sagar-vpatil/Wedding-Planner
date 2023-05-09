@@ -164,7 +164,14 @@ body {
 /* ----------------------X--------------------- Card Section ------------------------------X------------------------ */
 @media screen and (max-width:990px) {
   .cards {
-    margin: 1rem 2rem;
+    margin: 1rem 3rem;
+  }
+
+}
+
+@media screen and (max-width:605px) {
+  .cards {
+    margin: 0rem;
   }
 
 }
