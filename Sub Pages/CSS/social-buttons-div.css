@@ -46,7 +46,9 @@ button, select {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #525f7f;
+  color: white;
+  color: white;
+  color: white;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -66,13 +68,13 @@ button, select {
 }
 
 .btn:hover {
-  color: #525f7f;
+  color: white;
   text-decoration: none;
 }
 
 .btn.focus, .btn:focus {
   outline: 0;
-  box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
+  box-shadow: 0 7px 14px rgba(212, 212, 218, 0.1),0 3px 6px rgba(0,0,0,.08);
 }
 
 .btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {

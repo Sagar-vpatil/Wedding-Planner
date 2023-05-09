@@ -31,14 +31,14 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #4daade;
+  background-color: white;
   border-color: #4daade;
   box-shadow: 0px 10px 15px rgba(157,157,157,0.4);
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #4daade;
+  background-color: white;
   border-color: #4daade;
 }
 
