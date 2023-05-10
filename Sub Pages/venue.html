@@ -62,34 +62,10 @@
   font-family: "Zilla Slab", serif;
 
 }
-      .text-small {
-        font-size: 0.9rem;
-      }
 
-      a {
-        color: inherit;
-        text-decoration: none;
-        transition: all 0.3s;
-      }
-
-      a:hover,
-      a:focus {
-        text-decoration: none;
-      }
-
-      .form-control {
-        background: #212529;
-        border-color: #545454;
-      }
-
-      .form-control:focus {
-        background: #212529;
-      }
-
-      footer {
-        background: #212529;
-      }
+      
     </style>
+    <link rel="stylesheet" href="../CSS/style.css">
   </head>
   <body style="background-color: #598392;">
 
@@ -345,45 +321,56 @@
 
     <!-- Footer start here -->
 
-    <div class="d-flex flex-column">
-      <footer class="w-100 py-4 flex-shrink-0 mt-5">
-        <div class="container py-4">
-          <div class="row gy-4 gx-5">
-            <div class="col-lg-4 col-md-6">
-              <h5 class="h1 text-white">About Weddings</h5>
-              <p class="small text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
-            <div class="col-lg-2 col-md-6">
-              <h5 class="text-white mb-3">Quick links</h5>
-              <ul class="list-unstyled text-muted">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Get started</a></li>
-                <li><a href="#">FAQ</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-2 col-md-6">
-              <h5 class="text-white mb-3">Social links</h5>
-              <ul class="list-unstyled text-muted">
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <h5 class="text-white mb-3">Newsletter</h5>
-              <p class="small text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      
+<!--------------------------------------------footer ---------------------------------------------------------------->
+
+
+<footer id="footer">
+  <div class="upper-footer">
+    <div class="up-left">
+      <div class="image">
+        <img src="./logo.png" alt="Logo">
+      </div>
+      <div class="content" data-aos="fade-right">
+        <h2 class="footer-heading"> About Us</h2>
+        <p class="description" style="color: #fff;">
+          L'agence est située dans la magnifique région des Alpilles, au coeur de la Provence. Destination
+          weddings & events, for refined and luxurious weddings and events. multi-day weddings.
+          full service events. Services: Réactivité, conseils, projet clé en main.
+
+        </p>
+      </div>
     </div>
+    <div class="up-right" data-aos="fade-left">
+      <h2 class="footer-heading"> Follow us</h2>
+      <ul>
+        <li class="linkedIn" data-aos="fade-left"><a href="https://www.linkedin.com/in/rajuwebdev"><i
+              class="fa-brands fa-square-twitter"></i></a></li>
+        <li class="instagram" data-aos="fade-left"><a href="https://www.instagram.com/raju_webdev"><i
+              class="fa-brands fa-instagram"></i></a></li>
+        <li class="youtube" data-aos="fade-left"><a href="https://www.youtube.com/@geekshelp"><i
+              class="fa-brands fa-youtube"></i></a></li>
+        <li class="whatsapp" data-aos="fade-left"><a href="https://github.com/rajusheoran4"><i
+              class="fa-brands fa-whatsapp"></i></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="down-footer">
+    <p class="leftPara">Copyright &copy; 2021-23 GeeksHelp.in</p>
+    <ul class="footer-li">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">services</a></li>
+      <li><a href="#">venue</a></li>
+      <li><a href="#">e-card</a></li>
+      <li><a href="#">contact-us</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+<!------------------------------------------xx footer xxx---------------------------------------------------------------------->
 
     <!-- Footer end here -->
 
@@ -396,10 +383,7 @@
     </script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-
+   <script src="../JS/MainJs.js"></script>
 <!------------------------------------------xx footer xxx---------------------------------------------------------------------->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

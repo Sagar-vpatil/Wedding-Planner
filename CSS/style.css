@@ -1,6 +1,6 @@
 body{
     background-color: #1d3557;
-    border: solid #fff;
+    
 }
   
 .container .text h1{
@@ -52,7 +52,7 @@ color: crimson;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
-border: solid #fff;
+border-top: solid #dd277b 5px;
 }
 
 .All .Bo{
@@ -187,7 +187,7 @@ border: solid #fff;
     padding-top: 2rem;
     font-family: sans-serif;
     background-color: #000;
-    border:  solid #fff;
+    
 }
 
 .upper-footer {
