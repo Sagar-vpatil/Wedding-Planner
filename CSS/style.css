@@ -1,5 +1,5 @@
 body{
-    background-color: #240046;
+    background-color: #1d3557;
 }
 .container .text h1{
     text-align: center;
@@ -55,7 +55,7 @@ color: crimson;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #240046;
+
 }
 .Idea-container{
     position: relative;
@@ -338,7 +338,7 @@ color: crimson;
 
 .col-sm-12 h2 {
 	color: #fff;
-	font-size: 26px;
+	font-size: 35px;
 	font-weight: 300;
 	text-align: center;
 	position: relative;
@@ -352,7 +352,7 @@ color: crimson;
 	margin: 0 auto;
 	height: 4px;
 	border-radius: 1px;
-	background: #1abc9c;
+	background: #ff006e;
 	left: 0;
 	right: 0;
 	bottom: -20px;
