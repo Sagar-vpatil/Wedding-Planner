@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="../CSS/card.css">
   <link rel="stylesheet" href="../CSS/style.css">
   <title>Maharashtra Weddings</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -26,7 +30,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<body style="background-color: #92140c;">
+  
+	<!--------------------------------scroller ------------------------------------------------------>
+  
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+	<!----------------------------------xx  scroller-xxx------------------------------------------------------------>
+
+<body style="background-color: #1A5F7A;">
 
   <!-----------------------------------------------navigation bar----------------------------------->
   <header>
@@ -71,61 +82,15 @@
   <!------------------------------------------------------------------------------------------------------------->
 
   <div class="container">
-    <div class="text">
-      <h1 style="color: #fff;">Invitations Card</h1>
-    </div>
+    <div class="col-sm-12 "data-aos="fade-right">
+			<h2 style="padding-top: 35px; ">See What <b>Our </b>Invitations Card</h2>
+			</div>
 
 
 
     <div class="p-3 cards d-flex justify-content-between flex-wrap" data-aos="fade-up"
       data-aos-anchor-placement="top-center">
-      <div class="card bg-dark mt-3" style="width: 18rem">
-        <img src="../img/card-1.jpg" class="card-img-top" alt="Card image cap" />
-        <div class="card-body">
-          <div class="d-flex justify-content-between">
-            <div class="card-title m-0">
-              <h5> Designing Card</h5>
-            </div>
-          </div>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up
-            the bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">View more</a>
-        </div>
-      </div>
-
-      <div class="card bg-dark mt-3" style="width: 18rem">
-        <img src="../img/card-7.jpg" class="card-img-top" alt="Card image cap" />
-        <div class="card-body">
-          <div class="d-flex justify-content-between">
-            <div class="card-title m-0">
-              <h5> Designing Card</h5>
-            </div>
-          </div>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up
-            the bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">View more</a>
-        </div>
-      </div>
-
-      <div class="card bg-dark mt-3" style="width: 18rem">
-        <img src="../img/card-8.jpg" class="card-img-top" alt="Card image cap" />
-        <div class="card-body">
-          <div class="d-flex justify-content-between">
-            <div class="card-title m-0">
-              <h5> Designing Card</h5>
-            </div>
-          </div>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up
-            the bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">View more</a>
-        </div>
-      </div>
+      
 
       <div class="card bg-dark mt-3" style="width: 18rem">
         <img src="../img/card-9.jpg" class="card-img-top" alt="Card image cap" />
@@ -178,7 +143,7 @@
     </div>
     <div style="display: none; justify-content: space-between; flex-wrap: wrap" id="load-more" class="p-3 cards">
       <div class="card bg-dark mt-3" style="width: 18rem">
-        <img class="card-img-top" src="../img/card-4.jpg" alt="Card image cap" />
+        <img class="card-img-top" src="../img/card-9.jpg" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Designing Card</h5>
           <p class="card-text">
@@ -190,7 +155,7 @@
       </div>
 
       <div class="card bg-dark mt-3" style="width: 18rem">
-        <img class="card-img-top" src="../img/card-5.jpg" alt="Card image cap" />
+        <img class="card-img-top" src="../img/card-3.jpg" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Designing Card</h5>
           <p class="card-text">
@@ -202,7 +167,7 @@
       </div>
 
       <div class="card bg-dark mt-3" style="width: 18rem">
-        <img class="card-img-top" src="../img/card-6.jpg" alt="Card image cap" />
+        <img class="card-img-top" src="../img/card-2.jpg" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Designing Card</h5>
           <p class="card-text">
@@ -214,10 +179,8 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid bg-light">
-    <div class="col-md-12 text-center">
-      <button onclick=" mores()" id="btn" type="button" class="btn btn-primary w-30">More</button>
-    </div>
+  
+      <button  class="col-md-12 text-center " onclick=" mores()" id="btn" type="button" class="btn btn-primary w-30">More</button>
   </div>
   </div>
   </div>
@@ -228,13 +191,12 @@
   <!-- ------------------------------ Card Second ------------------------------------ -->
 
   <div class="container">
-    <div class="text">
-      <h1 style="background-color: #fff;">E-Card</h1>
-    </div>
 
-
-
-    <div class="p-3 cards d-flex justify-content-between flex-wrap" data-aos="fade-up"
+    <div class="col-sm-12 "data-aos="fade-right">
+			<h2 style="padding-top: 35px; ">See What <b>Our </b>E-Card</h2>
+			</div>
+  
+    <div class="p-3 cards d-flex justify-content-between flex-wrap" data-aos="zoom-in"
       data-aos-anchor-placement="top-center">
       <div class="card bg-dark mt-3" style="width: 18rem">
         <!---- <img
@@ -355,15 +317,63 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid bg-light">
-    <div class="col-md-12 text-center">
-      <button onclick=" add()" id="btn1" type="button" class="btn btn-primary w-30">More</button>
-    </div>
+  <button  class="col-md-12 text-center " onclick=" add()" id="add-sum" type="button" class="btn btn-primary w-30">More</button>
   </div>
 
   </div>
 
   <!-- --------------X---------------- Card Second ----------------X-------------------- -->
+
+  
+<!--------------------------------------------footer ---------------------------------------------------------------->
+
+
+<footer id="footer">
+  <div class="upper-footer">
+    <div class="up-left">
+      <div class="image">
+        <img src="./logo.png" alt="Logo">
+      </div>
+      <div class="content" data-aos="fade-right">
+        <h2 class="footer-heading"> About Us</h2>
+        <p class="description" style="color: #fff;">
+          L'agence est située dans la magnifique région des Alpilles, au coeur de la Provence. Destination
+          weddings & events, for refined and luxurious weddings and events. multi-day weddings.
+          full service events. Services: Réactivité, conseils, projet clé en main.
+
+        </p>
+      </div>
+    </div>
+    <div class="up-right" data-aos="fade-left">
+      <h2 class="footer-heading"> Follow us</h2>
+      <ul>
+        <li class="linkedIn" data-aos="fade-left"><a href="https://www.linkedin.com/in/rajuwebdev"><i
+              class="fa-brands fa-square-twitter"></i></a></li>
+        <li class="instagram" data-aos="fade-left"><a href="https://www.instagram.com/raju_webdev"><i
+              class="fa-brands fa-instagram"></i></a></li>
+        <li class="youtube" data-aos="fade-left"><a href="https://www.youtube.com/@geekshelp"><i
+              class="fa-brands fa-youtube"></i></a></li>
+        <li class="whatsapp" data-aos="fade-left"><a href="https://github.com/rajusheoran4"><i
+              class="fa-brands fa-whatsapp"></i></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="down-footer">
+    <p class="leftPara">Copyright &copy; 2021-23 GeeksHelp.in</p>
+    <ul class="footer-li">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">services</a></li>
+      <li><a href="#">venue</a></li>
+      <li><a href="#">e-card</a></li>
+      <li><a href="#">contact-us</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+<!------------------------------------------xx footer xxx---------------------------------------------------------------------->
 
   <script>
     function mores() {
@@ -400,6 +410,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <!-----------xx---------------xxx--------------Clients Section----xx--------------xxx
   -------------------------------------------->
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../JS/MainJs.js"></script>
+
+
   </div>
 </body>
 
